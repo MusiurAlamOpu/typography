@@ -1,7 +1,87 @@
+
 body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.link{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+.link:hover{
+    color: rgb(39, 38, 97);
+    background-color: white;
+    border-radius: 10px;
+}
+#headerDiv{
     display: flex;
-    font-size: 60px;
-    color: indianred;
+}
+#headerDiv1{
+    display: flex;
+    width: 50%;
+}
+#headerDiv2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#welcomeText{
+    color: rgb(34, 40, 90);
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Ubuntu';
+    padding-top: 7%;
+}
+#welcomeDiv{
+    display: flex;
+    justify-content: center;
+}
+#toTheWorldText{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(51, 56, 104);
+    font-weight: bold;
+}
+/* div{
+    border: 1px solid red;
+} */
+#searchBar{
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    
+}#searchInput{
+    width: 50%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid rgba(41, 41, 41, 0.342);
+    border-radius: 20px;
+    text-align: center;
+}
+#searchInput placeholder{
+    color: rgba(255, 255, 255, 0.295);
+}
+#searchButton{
+    background-color: rgb(51, 56, 104);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 8%;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#searchButton:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+    border:1px solid black;
+    color: black;
+    font-size: 30px;
 }

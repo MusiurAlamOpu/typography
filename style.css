@@ -50,12 +50,20 @@
 } */
 .SurahShortDetails{
     width: 40%;
-    margin: 3% 2%;
+    margin: 1% 2%;
     padding: 1.5% 1%;
     box-shadow: 1px 1px 5px grey;
     border-radius: 5px;
     text-align: center;
     font-family: 'Righteous', cursive;
+    background-color: rgb(247, 247, 247);
+}
+.nameColor{
+    color: orangered;
+    font-size: 25px;
+}
+.englishName{
+    color: rgba(78, 209, 111, 0.904);
 }
 #SurahList{
     display: flex;

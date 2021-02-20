@@ -12,17 +12,9 @@ const showSurahList = (surahList) => {
         surah.className = "SurahShortDetails";
         surah.innerHTML =`
             <div>
-                ${element.number}
+                ${element.number} <span class="nameColor">${element.name}</span> (${element.revelationType}) <span class="englishName">${element.englishName}</span> (${element.englishNameTranslation}) Number of Ayahs: ${element.numberOfAyahs}
             </div>
-            <div>
-                ${element.name} (${element.revelationType})
-            </div>
-            <div>
-                ${element.englishName} (${element.englishNameTranslation})
-            </div>
-            <div>
-                Number of Ayahs: ${element.numberOfAyahs}
-            </div>
+            
         `;
         surahListDetails.appendChild(surah);
     });

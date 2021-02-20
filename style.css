@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Lobster&family=Lobster+Two&family=Righteous&display=swap');
 
 #textIslam{
     color: rgb(69, 228, 69);
@@ -9,4 +9,20 @@
 }
 #navbarArea{
     border-bottom: 2px solid rgb(69, 228, 69);
+}
+.navOptions{
+    color: black;
+    font-family: "Cuprum", cursive;
+}
+#QuranImage1Div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#QuranImage1Div img{
+    width: 80%;
+    margin: 5%;
+    border-radius: 10px;
 }

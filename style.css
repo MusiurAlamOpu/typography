@@ -14,6 +14,16 @@
 .navOptions{
     color: black;
     font-family: "Cuprum", cursive;
+    align-items: center;
+    
+}
+.navOptions:hover{
+    background-color: rgb(218, 255, 216);
+    color: Black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0px 5px;
+    border-bottom: 2px solid rgb(56, 228, 56);
 }
 #QuranImage1Div{
     width: 100%;
@@ -26,4 +36,22 @@
     width: 80%;
     margin: 5%;
     border-radius: 10px;
+}
+
+/* quran.html */
+/* #SurahShortDetails{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 5% 5%;
+    padding: 1.5% 5%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5px;
+} */
+.SurahShortDetails{
+    width: 40%;
+    margin: 5% 5%;
+    padding: 1.5% 5%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5px;
 }

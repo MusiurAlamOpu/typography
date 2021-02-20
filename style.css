@@ -50,8 +50,8 @@
 } */
 .SurahShortDetails{
     width: 40%;
-    margin: 5% 5%;
+    margin: 3% 5%;
     padding: 1.5% 5%;
-    box-shadow: 3px 3px 5px grey;
+    box-shadow: 1px 1px 5px grey;
     border-radius: 5px;
 }

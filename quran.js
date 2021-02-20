@@ -6,15 +6,24 @@ fetch('http://api.alquran.cloud/v1/surah')
 
 const showSurahList = (surahList) => {
     console.log(surahList);
-    const surahDiv = document.createElement('SurahList');
-    
-    const englishName = surahList.data[0].englishName;
-    console.log("Surah Name",englishName);
-
-    const surahListDiv = document.createElement("div");
-    surahListDiv.className = "SurahShortDetails";
-    surahListDiv.innerHTML = `
-        Name: <span>${englishName}</span>
-    `;
-    surahDiv.appendChild(surahListDiv);
+    const surahListDetails = document.getElementById("SurahList");
+    surahList.data.forEach(element => {
+        const surah = document.createElement("div");
+        surah.className = "SurahShortDetails";
+        surah.innerHTML =`
+            <div>
+                ${element.number}
+            </div>
+            <div>
+                ${element.name}
+            </div>
+            <div>
+                ${element.englishName} (${element.englishNameTranslation})
+            </div>
+            <div>
+                ${element.numberOfAyahs} (${element.revelationType})
+            </div>
+        `;
+        surahListDetails.appendChild(surah);
+    });
 }

@@ -50,8 +50,19 @@
 } */
 .SurahShortDetails{
     width: 40%;
-    margin: 3% 5%;
-    padding: 1.5% 5%;
+    margin: 3% 2%;
+    padding: 1.5% 1%;
     box-shadow: 1px 1px 5px grey;
     border-radius: 5px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+#SurahList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 320){
+
 }

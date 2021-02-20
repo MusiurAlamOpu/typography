@@ -9,6 +9,7 @@
 }
 #navbarArea{
     border-bottom: 2px solid rgb(69, 228, 69);
+    width: 100%;
 }
 .navOptions{
     color: black;
